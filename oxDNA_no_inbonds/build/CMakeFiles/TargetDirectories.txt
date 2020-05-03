@@ -1,0 +1,11 @@
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/CMakeFiles/rebuild_cache.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/CMakeFiles/test_scientific.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/CMakeFiles/test_run.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/CMakeFiles/edit_cache.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/CMakeFiles/test_quick.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/src/CMakeFiles/rebuild_cache.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/src/CMakeFiles/confGenerator.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/src/CMakeFiles/oxDNA.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/src/CMakeFiles/edit_cache.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/src/CMakeFiles/DNAnalysis.dir
+/home/wtk23/Desktop/ox-no-inbonds/oxDNA_no_inbonds/build/src/CMakeFiles/common.dir

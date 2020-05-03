@@ -1,3 +1,15 @@
+NOTE
+----
+
+This version of oxDNA has been altered for a specific purpose, and is not suitable for the majority of users.
+
+In the file ./src/Interactions/DNA/DNAInteraction.cpp, line 687 has been altered, so that if two nucleotides are on the same strand they do not hydrogen bond.
+
+The updated DNA2Interaction inherits from DNAInteraction, so this change will prevent same strand binding in both the oxDNA1 and oxDNA2 interactions.
+
+However, the GPU code is unaffected, and is as normal.
+
+
 oxDNA README
 ------------
 
@@ -35,6 +47,7 @@ mkdir build 	# create a new build folder. It is good practice to compile out-of-
 cd build
 cmake ..		# here you can specify additional options, see next section
 make -j4		# compile oxDNA. The -jX make option makes it compile the code in parallel by using X threads.
+                # compilation typically takes less than 10 minutes
 
 At the end of the compilation three executables (oxDNA, DNAnalysis and confGenerator) will be placed
 in the build/bin folder.
