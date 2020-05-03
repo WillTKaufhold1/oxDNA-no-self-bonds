@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wtk23/oxDNA_no_inbonds/src/Utilities/time_scales/time_scales.c
+time_scales.h
+/home/wtk23/oxDNA_no_inbonds/src/Utilities/time_scales/time_scales.h
+
+/home/wtk23/oxDNA_no_inbonds/src/Utilities/time_scales/time_scales.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+stdio.h
+-
+
