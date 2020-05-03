@@ -683,7 +683,8 @@ template<typename number>
 number DNAInteraction<number>::_hydrogen_bonding(BaseParticle<number> *p, BaseParticle<number> *q, LR_vector<number> *r, bool update_forces) {
 	if(p->is_bonded(q)) return (number) 0.f;
 
-
+	// WillKaufhold : additional condition to make sure that nucleotides on the same strand can't bind.
+	if (p ->strand_id == q ->strand_id) return (number) 0.f;
 	// true if p and q are Watson-Crick-like pairs
 	bool is_pair = (q->btype + p->btype == 3);
 	number hb_multi = (abs(q->btype) >= 300 && abs(p->btype) >= 300) ? _hb_multiplier : 1.f;
